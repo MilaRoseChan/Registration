@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+    <base href="/" />
+
+</head>
+
+<body>
+<header>
+    <h1>Registration form</h1>
+</header>
+<main>
+    <form id="registrationForm" action="/registration" method="post" enctype="application/json">
+        <label for="registered">Date Registered:</label>
+        <input type="date" id="registered" name="registered" required><br>
+
+        <label for="email_address">Email Address:</label>
+        <input type="email" id="email_address" name="email" required><br>
+
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title"><br>
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="firstName" required><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="lastName" required><br>
+
+        <label for="address_line_1">Address Line 1:</label>
+        <input type="text" id="address_line_1" name="addressLine1" required><br>
+
+        <label for="address_line_2">Address Line 2:</label>
+        <input type="text" id="address_line_2" name="addressLine2"><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required><br>
+
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode" required><br>
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phoneNumber"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</main>
+
+</body>
+
+</html>
